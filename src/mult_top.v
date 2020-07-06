@@ -21,7 +21,9 @@ module mult_top(
     reg [15:0] X_vec;
     reg [15:0] Y_vec;
     
-    ELM_Mitchw3 mult(X_vec,Y_vec,P_vec); 
+    //ELM_Mitchw3 mult(X_vec,Y_vec,P_vec); 
+    
+    MITCH_TRUNC_W6.v(X_vec,Y_vec,P_vec); 
 
  
     always @(posedge clk) 
