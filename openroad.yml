@@ -1,6 +1,6 @@
 platform: nangate45   # ['nangate45']
 
-design_name: aes_cipher_top
+design_name: mult_top
 
 verilog_files:
   - src/mult_top.v
